@@ -222,6 +222,16 @@
   }
 }
 
+.link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.link:hover {
+  opacity: 0.75;
+}
+
 /* footer */
 .footer {
   margin: 22px 0 0;

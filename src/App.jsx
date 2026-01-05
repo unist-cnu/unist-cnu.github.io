@@ -26,7 +26,7 @@ export default function App() {
           <div className="heroTop">
             <h1>UNIST × CNU Workshop</h1>
             <div className="meta">
-              <Tag>Feb 12–13</Tag>
+              <Tag>Feb 12–13, 2026</Tag>
               <Tag>UNIST (예봉 Y201호, Y202호)</Tag>
             </div>
           </div>
@@ -62,11 +62,15 @@ export default function App() {
             <h2>Quick Info</h2>
             <div className="kv">
               <div className="k">Date</div>
-              <div className="v">Feb 12–13</div>
+              <div className="v">Feb 12–13, 2026</div>
               <div className="k">Venue</div>
               <div className="v">UNIST (예봉 Y201호, Y202호)</div>
               <div className="k">Contact</div>
-              <div className="v">Web Chair (dahee@unist.ac.kr)</div>
+              <div className="v">
+                Web Chair (
+                <a className="link" href="mailto:dahee@unist.ac.kr">dahee@unist.ac.kr</a>
+                )
+              </div>
             </div>
           </div>
         </section>
