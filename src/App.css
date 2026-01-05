@@ -1,0 +1,10 @@
+.wrap { max-width: 900px; margin: 40px auto; padding: 0 16px; font-family: system-ui, -apple-system, sans-serif; }
+.header { margin-bottom: 18px; }
+.sub { margin-top: 6px; opacity: 0.85; }
+.card { border: 1px solid #e5e5e5; border-radius: 14px; padding: 18px; margin: 14px 0; }
+.list { line-height: 1.9; margin: 0; }
+.note { margin: 6px 0 14px; opacity: 0.8; }
+.tbl { width: 100%; border-collapse: collapse; margin: 10px 0 18px; }
+.tbl th, .tbl td { border: 1px solid #ddd; padding: 10px; text-align: left; vertical-align: top; }
+.tbl th { background: #f7f7f7; }
+.footer { margin-top: 18px; opacity: 0.7; }
