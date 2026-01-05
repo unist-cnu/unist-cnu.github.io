@@ -107,7 +107,7 @@ export default function App() {
               <TimelineItem
                 time="18:00–"
                 title="Social / Banquet (TBD)"
-                desc="교류회 (뱅킷 + 레크레이션 등)"
+                desc="교류회 (뱅킷, 레크레이션 등)"
               />
             </div>
           </div>
