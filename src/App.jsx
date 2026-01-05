@@ -1,73 +1,134 @@
 import "./App.css";
 
+function Tag({ children }) {
+  return <span className="tag">{children}</span>;
+}
+
+function TimelineItem({ time, title, desc }) {
+  return (
+    <div className="titem">
+      <div className="tleft">
+        <div className="ttime">{time}</div>
+      </div>
+      <div className="tright">
+        <div className="ttitle">{title}</div>
+        {desc ? <div className="tdesc">{desc}</div> : null}
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
   return (
-    <div className="wrap">
-      <header className="header">
-        <h1>UNIST × CNU Workshop</h1>
-        <p className="sub">
-          <b>Date:</b> Feb 12–13 (Schedule TBD) · <b>Venue:</b> TBD
-        </p>
-      </header>
+    <div className="page">
+      <div className="wrap">
+        <header className="hero">
+          <div className="heroTop">
+            <h1>UNIST × CNU Workshop</h1>
+            <div className="meta">
+              <Tag>Feb 12–13</Tag>
+              <Tag>UNIST (TBD)</Tag>
+              <Tag>Schedule: Tentative</Tag>
+            </div>
+          </div>
+          <p className="sub">
+            아래 내용은 초안입니다. 일정/장소/세션은 확정되는 대로 업데이트합니다.
+          </p>
+        </header>
 
-      <section className="card">
-        <h2>Organising Committee</h2>
-        <ul className="list">
-          <li><b>General Chairs:</b> 저, 임교수님</li>
-          <li><b>Program Chairs:</b> 송씨, 소영씨</li>
-          <li><b>Local Chairs:</b> 민석, 태준</li>
-          <li><b>Web Chair:</b> 다희</li>
-        </ul>
-      </section>
+        <section className="grid">
+          <div className="card">
+            <h2>Organising Committee</h2>
+            <ul className="list">
+              <li>
+                <b>General Chairs</b>
+                <span>저임교수</span>
+              </li>
+              <li>
+                <b>Program Chairs</b>
+                <span>송씨, 소영씨</span>
+              </li>
+              <li>
+                <b>Local Chairs</b>
+                <span>민석, 태준</span>
+              </li>
+              <li>
+                <b>Web Chair</b>
+                <span>다희</span>
+              </li>
+            </ul>
+          </div>
 
-      <section className="card">
-        <h2>Tentative Schedule</h2>
-        <p className="note">※ 아래 시간표는 임시(초안)입니다. 확정되면 업데이트합니다.</p>
+          <div className="card">
+            <h2>Quick Info</h2>
+            <div className="kv">
+              <div className="k">Date</div>
+              <div className="v">Feb 12–13</div>
+              <div className="k">Venue</div>
+              <div className="v">UNIST (TBD)</div>
+              <div className="k">Contact</div>
+              <div className="v">Web Chair (Dahee)</div>
+            </div>
+          </div>
+        </section>
 
-        <h3>Day 1 — Feb 12</h3>
-        <table className="tbl">
-          <thead>
-            <tr>
-              <th>Time</th>
-              <th>Program</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>11:30–14:00</td>
-              <td>충남대 울산 도착 + 점심 + Tea time</td>
-            </tr>
-            <tr>
-              <td>14:00–18:00</td>
-              <td>Workshop 발표 및 Tutorial session 진행</td>
-            </tr>
-            <tr>
-              <td>18:00–</td>
-              <td>교류회 (뱅킷 + 레크레이션, TBD)</td>
-            </tr>
-          </tbody>
-        </table>
+        <section className="card">
+          <div className="sectionHead">
+            <h2>Schedule</h2>
+            <p className="note">시간표는 “블록” 단위로 나눠서 표시합니다.</p>
+          </div>
 
-        <h3>Day 2 — Feb 13</h3>
-        <table className="tbl">
-          <thead>
-            <tr>
-              <th>Time</th>
-              <th>Program</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>TBD</td>
-              <td>Schedule to be announced</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+          <div className="day">
+            <div className="dayHead">
+              <h3>Day 1</h3>
+              <span className="daySub">Feb 12 (Tentative)</span>
+            </div>
 
-      <footer className="footer">
-        <small>© UNIST × CNU Workshop</small>
-      </footer>
+            <div className="timeline">
+              <TimelineItem
+                time="11:30–12:30"
+                title="Arrival to Ulsan (CNU team)"
+                desc="이동 및 도착"
+              />
+              <TimelineItem
+                time="12:30–13:30"
+                title="Lunch"
+                desc="점심"
+              />
+              <TimelineItem
+                time="13:30–14:00"
+                title="Tea time"
+                desc="간단한 티타임 / 네트워킹"
+              />
+              <TimelineItem
+                time="14:00–18:00"
+                title="Workshop Talks & Tutorial Session"
+                desc="발표 및 튜토리얼 세션"
+              />
+              <TimelineItem
+                time="18:00–"
+                title="Social / Banquet (TBD)"
+                desc="교류회 (뱅킷 + 레크레이션 등)"
+              />
+            </div>
+          </div>
+
+          <div className="day">
+            <div className="dayHead">
+              <h3>Day 2</h3>
+              <span className="daySub">Feb 13 (Tentative)</span>
+            </div>
+
+            <div className="timeline">
+              <TimelineItem time="TBD" title="Schedule to be announced" />
+            </div>
+          </div>
+        </section>
+
+        <footer className="footer">
+          <small>© UNIST × CNU Workshop</small>
+        </footer>
+      </div>
     </div>
   );
 }
