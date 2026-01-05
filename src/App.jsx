@@ -65,9 +65,9 @@ export default function App() {
               <div className="k">Date</div>
               <div className="v">Feb 12–13</div>
               <div className="k">Venue</div>
-              <div className="v">UNIST (TBD)</div>
+              <div className="v">UNIST (예봉 Y201호, Y202호)</div>
               <div className="k">Contact</div>
-              <div className="v">Web Chair (Dahee)</div>
+              <div className="v">Web Chair (dahee@unist.ac.kr)</div>
             </div>
           </div>
         </section>
