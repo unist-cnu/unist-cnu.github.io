@@ -28,7 +28,6 @@ export default function App() {
             <div className="meta">
               <Tag>Feb 12–13</Tag>
               <Tag>UNIST (예봉 Y201호, Y202호)</Tag>
-              <Tag>Schedule: Tentative</Tag>
             </div>
           </div>
           <p className="sub">
@@ -96,9 +95,9 @@ export default function App() {
                 desc="점심"
               />
               <TimelineItem
-                time="13:30–14:00"
-                title="Tea time"
-                desc="간단한 티타임 / 네트워킹"
+                time="13:30–14:00"및
+                title="Networking"
+                desc="티타임  네트워킹"
               />
               <TimelineItem
                 time="14:00–18:00"
