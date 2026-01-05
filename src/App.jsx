@@ -75,7 +75,7 @@ export default function App() {
         <section className="card">
           <div className="sectionHead">
             <h2>Schedule</h2>
-            <p className="note">시간표는 “블록” 단위로 나눠서 표시합니다.</p>
+            {/* <p className="note">시간표는 “블록” 단위로 나눠서 표시합니다.</p> */}
           </div>
 
           <div className="day">
