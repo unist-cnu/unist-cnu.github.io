@@ -27,12 +27,12 @@ export default function App() {
             <h1>UNIST × CNU Workshop</h1>
             <div className="meta">
               <Tag>Feb 12–13</Tag>
-              <Tag>UNIST (TBD)</Tag>
+              <Tag>UNIST (예봉 Y201호, Y202호)</Tag>
               <Tag>Schedule: Tentative</Tag>
             </div>
           </div>
           <p className="sub">
-            아래 내용은 초안입니다. 일정/장소/세션은 확정되는 대로 업데이트합니다.
+            일정/장소/세션은 확정되는 대로 업데이트 예정입니다.
           </p>
         </header>
 
