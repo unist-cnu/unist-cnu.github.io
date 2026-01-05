@@ -42,19 +42,19 @@ export default function App() {
             <ul className="list">
               <li>
                 <b>General Chairs</b>
-                <span>저임교수</span>
+                <span>김정훈 교수님, 임성수 교수님 </span>
               </li>
               <li>
                 <b>Program Chairs</b>
-                <span>송씨, 소영씨</span>
+                <span>김송, 박소영</span>
               </li>
               <li>
                 <b>Local Chairs</b>
-                <span>민석, 태준</span>
+                <span>김민석, 한태준</span>
               </li>
               <li>
                 <b>Web Chair</b>
-                <span>다희</span>
+                <span>김다희</span>
               </li>
             </ul>
           </div>
