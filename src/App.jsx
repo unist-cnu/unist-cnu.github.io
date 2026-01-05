@@ -95,9 +95,9 @@ export default function App() {
                 desc="점심"
               />
               <TimelineItem
-                time="13:30–14:00"및
+                time="13:30–14:00"
                 title="Networking"
-                desc="티타임  네트워킹"
+                desc="티타임 및 네트워킹"
               />
               <TimelineItem
                 time="14:00–18:00"
