@@ -120,7 +120,7 @@ export default function App() {
           
 
           <TimelineItem
-            time="14:00 - 17:20"
+            time="14:00 - 18:00"
             title="Workshop Talks & Tutorial Session"
             desc="발표 및 튜토리얼 세션"
           >
