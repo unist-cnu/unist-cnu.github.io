@@ -200,6 +200,7 @@
 
 .tright {
   padding: 14px 16px;
+  min-width: 0;   /* ✅ 추가: overflow-x가 동작하도록 */
 }
 
 .ttitle {
@@ -289,7 +290,9 @@
 /* talkPanel 바깥(타임라인 오른쪽 영역)도 살짝 배경감 */
 .tcontent {
   margin-top: 12px;
-  padding: 4px 0; /* 숨 쉴 공간 */
+  padding: 4px 0;
+  overflow-x: auto;                 /* ✅ 추가 */
+  -webkit-overflow-scrolling: touch;/* ✅ 추가 */
 }
 /* Opening row: break보다 살짝만 다르게(선택) */
 .openingRow td {
