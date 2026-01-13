@@ -286,7 +286,25 @@
   margin-top: 12px;
   padding: 4px 0; /* 숨 쉴 공간 */
 }
+/* Opening row: break보다 살짝만 다르게(선택) */
+.openingRow td {
+  background: #edf2f7;      /* 아주 연한 gray */
+  color: #000000;
+  font-weight: 500;
+}
 
+/* 병합된 셀 중앙정렬 (break/opening 모두 적용) */
+.breakRow td[colspan],
+.openingRow td[colspan] {
+  text-align: center;
+}
+
+/* 첫 번째 Time 컬럼도 가운데 정렬하고 싶으면 */
+.breakRow td:first-child,
+.openingRow td:first-child {
+  text-align: center;
+  white-space: nowrap;
+}
 /* Break 행: 은은한 그레이 배경 + 그레이 텍스트 */
 .breakRow td {
   background: #f2f4f6;           /* 연한 그레이 */
@@ -296,10 +314,6 @@
   color: #555555;                /* 그레이 글자 */
 }
 
-/* 병합된 break 셀은 중앙정렬 유지 */
-.breakRow td[colspan] {
-  text-align: center;
-}
 /* Slides 칸 중앙정렬 */
 .slidesCell {
   text-align: center;

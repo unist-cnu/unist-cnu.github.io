@@ -113,14 +113,14 @@ export default function App() {
             />
 
             <TimelineItem
-              time="13:30 - 14:00"
+              time="13:30 - 13:55"
               title="Networking"
               desc="티타임 및 네트워킹"
             />
           
 
           <TimelineItem
-            time="14:00 - 18:00"
+            time="13:55 - 18:00"
             title="Workshop Talks & Tutorial Session"
             desc="발표 및 튜토리얼 세션"
           >
@@ -135,6 +135,10 @@ export default function App() {
                   </tr>
                 </thead>
                   <tbody>
+                    <tr className="openingRow">
+                      <td>13:55 - 14:00</td>
+                      <td colSpan={3}><b>Workshop Opening Talk</b></td>
+                    </tr>
                     <tr>
                       <td>14:00 - 14:30</td>
                       <td>박종민</td>
