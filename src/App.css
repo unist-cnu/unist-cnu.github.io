@@ -232,6 +232,91 @@
   opacity: 0.75;
 }
 
+
+.subhead {
+  margin: 18px 0 10px;
+  font-size: 16px;
+}
+
+.talkTableWrap {
+  margin-top: 8px;
+}
+
+.talkTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: none;                 /* 기존 테두리 제거 */
+  border-top: 1px solid #e5e7eb;    /* ✅ 위만 */
+  border-bottom: 1px solid #e5e7eb; /* ✅ 아래만 */
+  /* border-radius: 14px; */
+  overflow: hidden;
+  background: #fff;
+}
+
+.talkTable thead th {
+  background: #f8fafc;
+  font-size: 13px;
+}
+
+.talkTable th,
+.talkTable td {
+  padding: 10px 12px;
+  border-top: 1px solid #eef2f7;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.talkTable tbody td {
+  font-size: 14px;
+}
+
+/* talkPanel을 '카드'처럼 확실하게 */
+.talkPanel {
+  margin-top: 12px;
+  /* border: 1px solid #e5e7eb; */
+  background: #ffffff;
+  /* border-radius: 16px; */
+  padding: 14px;
+  /* box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06); */
+}
+
+/* talkPanel 바깥(타임라인 오른쪽 영역)도 살짝 배경감 */
+.tcontent {
+  margin-top: 12px;
+  padding: 4px 0; /* 숨 쉴 공간 */
+}
+
+/* Break 행: 은은한 그레이 배경 + 그레이 텍스트 */
+.breakRow td {
+  background: #f2f4f6;           /* 연한 그레이 */
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  font-weight: 600;
+  color: #2b2a30;                /* 그레이 글자 */
+}
+
+/* 병합된 break 셀은 중앙정렬 유지 */
+.breakRow td[colspan] {
+  text-align: center;
+}
+/* Slides 칸 중앙정렬 */
+.slidesCell {
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.pdfLink {
+  color: #000313; 
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 650;
+}
+
+.pdfLink:hover {
+  opacity: 0.8;
+}
 /* footer */
 .footer {
   margin: 22px 0 0;
