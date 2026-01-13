@@ -137,7 +137,7 @@ export default function App() {
                   <tbody>
                     <tr className="openingRow">
                       <td>13:55 - 14:00</td>
-                      <td colSpan={3}><b>Workshop Opening Talk</b></td>
+                      <td colSpan={3}><b>Opening Talk</b></td>
                     </tr>
                     <tr>
                       <td>14:00 - 14:30</td>
