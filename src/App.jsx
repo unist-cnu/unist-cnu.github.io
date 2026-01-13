@@ -231,9 +231,9 @@ export default function App() {
                       </td>
                     </tr>
 
-                    <tr className="breakRow">
+                    <tr className="openingRow">
                       <td>17:40 - 18:00</td>
-                      <td colSpan={3}><b>Wrap-up / Photo</b> (TBD)</td>
+                      <td colSpan={3}><b>Wrap-up / Photo</b> </td>
                     </tr>
                   </tbody>
               </table>
