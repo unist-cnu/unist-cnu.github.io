@@ -242,18 +242,32 @@
   margin-top: 8px;
 }
 
+/* talkPanel에 가로 스크롤 허용 */
+.talkPanel {
+  margin-top: 12px;
+  background: #ffffff;
+  padding: 14px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 테이블이 내용만큼 넓어지게 */
 .talkTable {
-  width: 100%;
+  width: max-content;
+  min-width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  border: none;                 /* 기존 테두리 제거 */
-  border-top: 1px solid #e5e7eb;    /* ✅ 위만 */
-  border-bottom: 1px solid #e5e7eb; /* ✅ 아래만 */
-  /* border-radius: 14px; */
-  overflow: hidden;
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
   background: #fff;
 }
 
+/* Topic(3번째 컬럼) 줄바꿈 금지 */
+.talkTable td:nth-child(3),
+.talkTable th:nth-child(3) {
+  white-space: nowrap;
+}
 .talkTable thead th {
   background: #f8fafc;
   font-size: 15px;
@@ -271,15 +285,6 @@
   font-size: 14px;
 }
 
-/* talkPanel을 '카드'처럼 확실하게 */
-.talkPanel {
-  margin-top: 12px;
-  /* border: 1px solid #e5e7eb; */
-  background: #ffffff;
-  /* border-radius: 16px; */
-  padding: 14px;
-  /* box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06); */
-}
 
 /* talkPanel 바깥(타임라인 오른쪽 영역)도 살짝 배경감 */
 .tcontent {
