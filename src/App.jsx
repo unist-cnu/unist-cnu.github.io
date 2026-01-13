@@ -268,6 +268,11 @@ export default function App() {
 
           <div className="timeline">
             <TimelineItem
+              time="11:00 - 12:00"
+              title="UNIST–CNU Internal Research Meeting"
+              desc="연구 미팅"
+            />
+            <TimelineItem
               time="12:00 - 13:00"
               title={
                 <>
