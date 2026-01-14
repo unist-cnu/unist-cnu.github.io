@@ -95,17 +95,17 @@ export default function App() {
               desc="울산역 도착"
             />
             <TimelineItem
-              time="12:30 - 13:30"
+              time="12:00 - 13:30"
               title={
                 <>
                   Lunch @{" "}
                   <a
                     className="link"
-                    href="https://map.naver.com/p/entry/place/33918013?lng=129.2387886&lat=35.5684725&placePath=%2Fhome&entry=plt&searchType=place"
+                    href="https://naver.me/GaldiSrp"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    정나루
+                    강변돌짜장짬뽕
                   </a>
                 </>
               }
