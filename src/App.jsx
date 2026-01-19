@@ -222,11 +222,15 @@ export default function App() {
                   <tr>
                     <td>16:25 - 16:50</td>
                     <td>김다희</td>
-                    <td>TBD</td>
+                    <td>모듈러리티 기반 커뮤니티 검색 연구</td>
                     <td className="materialsCell">
                       <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
-                      <a className="matLink" href="/materials/ref/example.pdf" target="_blank" rel="noreferrer">Ref</a>
+                      <span className="matGroup">
+                        <a className="matLink" href="/materials/ref/dh_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
+                        <span className="matSep">·</span>
+                        <a className="matLink" href="/materials/ref/dh_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
+                      </span>
                     </td>
                   </tr>
 
