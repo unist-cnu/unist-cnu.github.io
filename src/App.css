@@ -6,11 +6,24 @@
 }
 
 .wrap {
-  max-width: 980px;
+  max-width: none;
+  width:100%;
   margin: 0 auto;
   padding: 0 20px;
   font-family: system-ui, -apple-system, sans-serif;
   color: #111;
+}
+
+.wrap { max-width: 980px; }
+
+@media (min-width: 1200px) {
+  .wrap { max-width: 1200px; }
+}
+@media (min-width: 1440px) {
+  .wrap { max-width: 1400px; }
+}
+@media (min-width: 1680px) {
+  .wrap { max-width: 1600px; }
 }
 
 /* hero */
@@ -172,7 +185,10 @@
 .timeline {
   border: 1px solid #ededed;
   border-radius: 16px;
-  overflow: hidden;
+
+  /* ✅ 기존 hidden 때문에 스크롤바가 잘릴 수 있음 */
+  overflow-y: hidden;
+  overflow-x: visible;
 }
 
 .titem {
@@ -200,7 +216,7 @@
 
 .tright {
   padding: 14px 16px;
-  min-width: 0;   /* ✅ 추가: overflow-x가 동작하도록 */
+  min-width: 0; /* ✅ 중요: 내부 overflow 스크롤 동작 */
 }
 
 .ttitle {
@@ -233,7 +249,6 @@
   opacity: 0.75;
 }
 
-
 .subhead {
   margin: 18px 0 10px;
   font-size: 16px;
@@ -243,19 +258,22 @@
   margin-top: 8px;
 }
 
-/* talkPanel에 가로 스크롤 허용 */
+/* ✅ 가로 스크롤은 talkPanel에서 책임 */
 .talkPanel {
   margin-top: 12px;
   background: #ffffff;
   padding: 14px;
+
   overflow-x: auto;
+  overflow-y: visible;
   -webkit-overflow-scrolling: touch;
 }
 
-/* 테이블이 내용만큼 넓어지게 */
+/* ✅ 테이블이 내용만큼 넓어지게 */
 .talkTable {
-  width: max-content;
-  min-width: 100%;
+  width: 100%; /* 핵심 */
+  min-width: 0;
+  table-layout: auto;
   border-collapse: separate;
   border-spacing: 0;
   border: none;
@@ -264,72 +282,76 @@
   background: #fff;
 }
 
-/* Topic(3번째 컬럼) 줄바꿈 금지 */
-.talkTable td:nth-child(3),
-.talkTable th:nth-child(3) {
-  white-space: nowrap;
-}
 .talkTable thead th {
   background: #f8fafc;
   font-size: 15px;
 }
 
+/* ✅ 전체 셀 줄바꿈 금지 (Ref3, 긴 topic도 한 줄 유지) */
 .talkTable th,
 .talkTable td {
   padding: 10px 12px;
   border-top: 1px solid #eef2f7;
   vertical-align: middle;
   text-align: center;
+  white-space: nowrap; /* 핵심 */
 }
 
 .talkTable tbody td {
   font-size: 14px;
 }
 
+/* (선택) Topic 칼럼이 너무 좁아지는 것 방지 */
+.talkTable th:nth-child(3),
+.talkTable td:nth-child(3) {
+  min-width: 360px;
+}
 
-/* talkPanel 바깥(타임라인 오른쪽 영역)도 살짝 배경감 */
+/* talkPanel 바깥(타임라인 오른쪽 영역) */
 .tcontent {
   margin-top: 12px;
   padding: 4px 0;
-  overflow-x: auto;                 /* ✅ 추가 */
-  -webkit-overflow-scrolling: touch;/* ✅ 추가 */
 }
-/* Opening row: break보다 살짝만 다르게(선택) */
+
+/* Opening row */
 .openingRow td {
-  background: #edf2f7;      /* 아주 연한 gray */
+  background: #edf2f7;
   color: #000000;
   font-weight: 500;
 }
 
-/* 병합된 셀 중앙정렬 (break/opening 모두 적용) */
+/* 병합된 셀 중앙정렬 */
 .breakRow td[colspan],
 .openingRow td[colspan] {
   text-align: center;
 }
 
-/* 첫 번째 Time 컬럼도 가운데 정렬하고 싶으면 */
+/* 첫 번째 Time 컬럼도 가운데 정렬 */
 .breakRow td:first-child,
 .openingRow td:first-child {
   text-align: center;
   white-space: nowrap;
 }
-/* Break 행: 은은한 그레이 배경 + 그레이 텍스트 */
+
+/* Break 행 */
 .breakRow td {
-  background: #f2f4f6;           /* 연한 그레이 */
+  background: #f2f4f6;
   border-top: 1px solid #e5e7eb;
   border-bottom: 1px solid #e5e7eb;
   font-weight: 500;
-  color: #555555;                /* 그레이 글자 */
+  color: #555555;
 }
 
-/* Slides 칸 중앙정렬 */
+/* Materials 칸 */
 .materialsCell {
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
 }
 
+/* 링크 스타일 */
 .matLink {
+  display: inline-block;
   color: #000313;
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -344,6 +366,13 @@
   margin: 0 8px;
   opacity: 0.45;
 }
+
+/* (옵션) 만약 matGroup을 쓸 때 */
+.matGroup {
+  white-space: nowrap;
+}
+
+/* 기존 slidesCell/pdfLink (남겨둠) */
 .slidesCell {
   text-align: center;
   white-space: nowrap;
@@ -351,7 +380,7 @@
 }
 
 .pdfLink {
-  color: #000313; 
+  color: #000313;
   text-decoration: underline;
   text-underline-offset: 3px;
   font-weight: 650;
@@ -360,6 +389,7 @@
 .pdfLink:hover {
   opacity: 0.8;
 }
+
 /* footer */
 .footer {
   margin: 22px 0 0;
