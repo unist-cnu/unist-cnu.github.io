@@ -289,7 +289,7 @@ export default function App() {
         <div className="day">
           <div className="dayHead">
             <h3>Day 2</h3>
-            <span className="daySub">Feb 13, 2026 (Tentative)</span>
+            <span className="daySub">Feb 13, 2026</span>
           </div>
 
           <div className="timeline">
