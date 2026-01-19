@@ -323,6 +323,27 @@
 }
 
 /* Slides 칸 중앙정렬 */
+.materialsCell {
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.matLink {
+  color: #000313;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 650;
+}
+
+.matLink:hover {
+  opacity: 0.8;
+}
+
+.matSep {
+  margin: 0 8px;
+  opacity: 0.45;
+}
 .slidesCell {
   text-align: center;
   white-space: nowrap;
