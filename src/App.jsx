@@ -222,7 +222,7 @@ export default function App() {
                   <tr>
                     <td>16:25 - 16:50</td>
                     <td>김다희</td>
-                    <td>모듈러리티 기반 커뮤니티 검색 연구</td>
+                    <td>규모 제약을 고려한 사용자 중심 커뮤니티 검색 연구</td>
                     <td className="materialsCell">
                       <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
