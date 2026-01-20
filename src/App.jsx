@@ -284,7 +284,7 @@ export default function App() {
               </table>
 
               <p className="note" style={{ marginTop: 10 }}>
-                ※ 발표 시간/순서는 조정될 수 있습니다.
+                ※ 발표 시간/순서는 확정 전이며, 추후 업데이트될 예정입니다.
               </p>
             </div>
           </TimelineItem>
