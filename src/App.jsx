@@ -146,7 +146,7 @@ export default function App() {
                         <td className="materialsCell">
                           <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
                           <span className="matSep">·</span>
-                          <a className="matLink" href="/materials/ref/example.pdf" target="_blank" rel="noreferrer">Ref</a>
+                          <a className="matLink" href="/materials/ref/SoyoungPark_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
                         </td>
                       </tr>
 
@@ -157,7 +157,7 @@ export default function App() {
                         <td className="materialsCell">
                           <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
                           <span className="matSep">·</span>
-                          <a className="matLink" href="/materials/ref/example.pdf" target="_blank" rel="noreferrer">Ref</a>
+                          <a className="matLink" href="/materials/ref/JunghyunOh_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
                         </td>
                       </tr>
 
@@ -168,7 +168,7 @@ export default function App() {
                         <td className="materialsCell">
                           <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
                           <span className="matSep">·</span>
-                          <a className="matLink" href="/materials/ref/example.pdf" target="_blank" rel="noreferrer">Ref</a>
+                          <a className="matLink" href="/materials/ref/MinkyungSong_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
                         </td>
                       </tr>
 
@@ -184,7 +184,7 @@ export default function App() {
                         <td className="materialsCell">
                           <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
                           <span className="matSep">·</span>
-                          <a className="matLink" href="/materials/ref/example.pdf" target="_blank" rel="noreferrer">Ref</a>
+                          <a className="matLink" href="/materials/ref/SeunghoonHan_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
                         </td>
                       </tr>
 
@@ -195,7 +195,11 @@ export default function App() {
                         <td className="materialsCell">
                           <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
                           <span className="matSep">·</span>
-                          <a className="matLink" href="/materials/ref/example.pdf" target="_blank" rel="noreferrer">Ref</a>
+                        <span className="matGroup">
+                          <a className="matLink" href="/materials/ref/JongminPark_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
+                          <span className="matSep">·</span>
+                          <a className="matLink" href="/materials/ref/JongminPark_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
+                      </span>
                         </td>
                       </tr>
 
@@ -212,9 +216,9 @@ export default function App() {
                       <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
                       <span className="matGroup">
-                        <a className="matLink" href="/materials/ref/ms_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
+                        <a className="matLink" href="/materials/ref/MinseokKim_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
                         <span className="matSep">·</span>
-                        <a className="matLink" href="/materials/ref/ms_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
+                        <a className="matLink" href="/materials/ref/MinseokKim_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
                       </span>
                     </td>
                   </tr>
@@ -227,9 +231,9 @@ export default function App() {
                       <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
                       <span className="matGroup">
-                        <a className="matLink" href="/materials/ref/dh_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
+                        <a className="matLink" href="/materials/ref/DaheeKim_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
                         <span className="matSep">·</span>
-                        <a className="matLink" href="/materials/ref/dh_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
+                        <a className="matLink" href="/materials/ref/DaheeKim_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
                       </span>
                     </td>
                   </tr>
@@ -247,9 +251,9 @@ export default function App() {
                       <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
                       <span className="matGroup">
-                        <a className="matLink" href="/materials/ref/tj_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
+                        <a className="matLink" href="/materials/ref/TaejoonHan_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
                         <span className="matSep">·</span>
-                        <a className="matLink" href="/materials/ref/tj_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
+                        <a className="matLink" href="/materials/ref/TaejoonHan_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
                       </span>
                     </td>
                   </tr>
@@ -263,11 +267,11 @@ export default function App() {
                       <span className="matSep">·</span>
 
                       <span className="matGroup">
-                        <a className="matLink" href="/materials/ref/song_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
+                        <a className="matLink" href="/materials/ref/SongKim_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
                         <span className="matSep">·</span>
-                        <a className="matLink" href="/materials/ref/song_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
+                        <a className="matLink" href="/materials/ref/SongKim_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
                         <span className="matSep">·</span>
-                        <a className="matLink" href="/materials/ref/song_ref3.pdf" target="_blank" rel="noreferrer">Ref3</a>
+                        <a className="matLink" href="/materials/ref/SongKim_ref3.pdf" target="_blank" rel="noreferrer">Ref3</a>
                       </span>
                     </td>
                   </tr>
