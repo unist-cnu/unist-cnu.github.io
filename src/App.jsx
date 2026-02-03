@@ -112,15 +112,15 @@ export default function App() {
               desc="점심"
             />
 
-            <TimelineItem
+            {/* <TimelineItem
               time="13:30 - 13:55"
               title="Networking"
               desc="티타임 및 네트워킹"
-            />
+            /> */}
           
 
           <TimelineItem
-            time="13:55 - 18:00"
+            time="13:40 - 18:00"
             title="Workshop Talks & Tutorial Session"
             desc="발표 및 튜토리얼 세션"
           >
@@ -135,81 +135,76 @@ export default function App() {
                   </tr>
                 </thead>
                   <tbody>
-                    <tr className="openingRow">
+                    {/* <tr className="openingRow">
                       <td>13:55 - 14:00</td>
                       <td colSpan={3}><b>Opening Talk</b></td>
-                    </tr>
-                    <tr>
-                        <td>14:00 - 14:20</td>
-                        <td>박소영</td>
-                        <td>그래프 신경망에서의 불확실성 정량화 연구</td>
-                        <td className="materialsCell">
-                          <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
-                          <span className="matSep">·</span>
-                          <a className="matLink" href="/materials/ref/SoyoungPark_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td>14:20 - 14:40</td>
-                        <td>오정현</td>
-                        <td>계층적 데이터 처리를 위한 GraphRAG 연구</td>
-                        <td className="materialsCell">
-                          <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
-                          <span className="matSep">·</span>
-                          <a className="matLink" href="/materials/ref/JunghyunOh_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td>14:40 - 15:00</td>
-                        <td>송민경</td>
-                        <td>그래프 기반 추천 시스템의 분리 학습 연구</td>
-                        <td className="materialsCell">
-                          <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
-                          <span className="matSep">·</span>
-                          <a className="matLink" href="/materials/ref/MinkyungSong_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
-                        </td>
-                      </tr>
-
-                      <tr className="breakRow">
-                        <td>15:00 - 15:10</td>
-                        <td colSpan={3}><b>Break</b></td>
-                      </tr>
-
-                      <tr>
-                        <td>15:10 - 15:30</td>
-                        <td>한승훈</td>
-                        <td>Multi-modal LLM에서 그래프를 활용한 효과적인 토큰 프루닝</td>
-                        <td className="materialsCell">
-                          <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
-                          <span className="matSep">·</span>
-                          <a className="matLink" href="/materials/ref/SeunghoonHan_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td>15:30 - 15:50</td>
-                        <td>박종민</td>
-                        <td>하이퍼볼릭 공간 기반 이종 그래프 표현 학습</td>
-                        <td className="materialsCell">
-                          <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
-                          <span className="matSep">·</span>
-                        <span className="matGroup">
-                          <a className="matLink" href="/materials/ref/JongminPark_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
-                          <span className="matSep">·</span>
-                          <a className="matLink" href="/materials/ref/JongminPark_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
-                      </span>
-                        </td>
-                      </tr>
-
-                      <tr className="breakRow">
-                        <td>15:50 - 16:00</td>
-                        <td colSpan={3}><b>Break</b></td>
-                      </tr>
+                    </tr> */}
+                  <tr>
+                    <td>13:40 - 13:55</td>
+                    <td>박소영</td>
+                    <td>그래프 신경망에서의 불확실성 정량화 연구</td>
+                    <td className="materialsCell">
+                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <span className="matSep">·</span>
+                      <a className="matLink" href="/materials/ref/SoyoungPark_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
+                    </td>
+                  </tr>
 
                   <tr>
-                    <td>16:00 - 16:25</td>
+                    <td>13:55 - 14:10</td>
+                    <td>한승훈</td>
+                    <td>Multi-modal LLM에서 그래프를 활용한 효과적인 토큰 프루닝</td>
+                    <td className="materialsCell">
+                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <span className="matSep">·</span>
+                      <a className="matLink" href="/materials/ref/SeunghoonHan_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>14:10 - 14:20</td>
+                    <td>오정현</td>
+                    <td>계층적 데이터 처리를 위한 GraphRAG 연구</td>
+                    <td className="materialsCell">
+                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <span className="matSep">·</span>
+                      <a className="matLink" href="/materials/ref/JunghyunOh_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
+                    </td>
+                  </tr>
+
+                  <tr className="breakRow">
+                    <td>14:20 - 14:40</td>
+                    <td colSpan={3}><b>Break</b></td>
+                  </tr>
+
+                  <tr>
+                    <td>14:40 - 14:50</td>
+                    <td>송민경</td>
+                    <td>그래프 기반 추천 시스템의 분리 학습 연구</td>
+                    <td className="materialsCell">
+                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <span className="matSep">·</span>
+                      <a className="matLink" href="/materials/ref/MinkyungSong_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>14:50 - 15:10</td>
+                    <td>박종민</td>
+                    <td>하이퍼볼릭 공간 기반 이종 그래프 표현 학습</td>
+                    <td className="materialsCell">
+                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <span className="matSep">·</span>
+                    <span className="matGroup">
+                      <a className="matLink" href="/materials/ref/JongminPark_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
+                      <span className="matSep">·</span>
+                      <a className="matLink" href="/materials/ref/JongminPark_ref2.pdf" target="_blank" rel="noreferrer">Ref2</a>
+                  </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>15:10 - 15:30</td>
                     <td>김민석</td>
                     <td>참여 강도 기반 응집 부분 하이퍼그래프 탐색</td>
                     <td className="materialsCell">
@@ -222,9 +217,14 @@ export default function App() {
                       </span>
                     </td>
                   </tr>
+                  
+                  <tr className="breakRow">
+                    <td>15:30 - 15:50</td>
+                    <td colSpan={3}><b>Break</b></td>
+                  </tr>
 
                   <tr>
-                    <td>16:25 - 16:50</td>
+                    <td>15:50 - 16:10</td>
                     <td>김다희</td>
                     <td>규모 제약을 고려한 사용자 중심 커뮤니티 검색</td>
                     <td className="materialsCell">
@@ -238,13 +238,8 @@ export default function App() {
                     </td>
                   </tr>
 
-                  <tr className="breakRow">
-                    <td>16:50 - 17:00</td>
-                    <td colSpan={3}><b>Break</b></td>
-                  </tr>
-
                   <tr>
-                    <td>17:00 - 17:25</td>
+                    <td>16:10 - 16:30</td>
                     <td>한태준</td>
                     <td>유저 참여도 강화를 위한 앵커링 연구</td>
                     <td className="materialsCell">
@@ -259,7 +254,7 @@ export default function App() {
                   </tr>
 
                   <tr>
-                    <td>17:25 - 17:50</td>
+                    <td>16:30 - 16:50</td>
                     <td>김송</td>
                     <td>Maximum subgraph search of size-adaptive model</td>
                     <td className="materialsCell">
@@ -276,16 +271,30 @@ export default function App() {
                     </td>
                   </tr>
 
-                  <tr className="openingRow">
+                  <tr className="breakRow">
+                    <td>16:50 - 17:00</td>
+                    <td colSpan={3}><b>Break</b></td>
+                  </tr>
+
+                  {/* <tr className="openingRow">
                     <td>17:50 - 18:00</td>
                     <td colSpan={3}><b>Wrap-up / Photo</b></td>
-                  </tr>
+                  </tr> */}
+
+                  <tr className="openingRow">
+                      <td>17:00- 18:00</td>
+                      <td>김정훈 교수님</td>
+                      <td>TBD</td>
+                      <td className="materialsCell">
+                        -
+                      </td>
+                    </tr>
                 </tbody>
               </table>
 
-              <p className="note" style={{ marginTop: 10 }}>
+              {/* <p className="note" style={{ marginTop: 10 }}>
                 ※ 발표 시간/순서는 확정 전이며, 추후 업데이트될 예정입니다.
-              </p>
+              </p> */}
             </div>
           </TimelineItem>
           <TimelineItem
