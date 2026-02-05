@@ -208,7 +208,7 @@ export default function App() {
                     <td>김민석</td>
                     <td>참여 강도 기반 응집 부분 하이퍼그래프 탐색</td>
                     <td className="materialsCell">
-                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <a className="matLink" href="/materials/slides/MinseokKim_slides.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
                       <span className="matGroup">
                         <a className="matLink" href="/materials/ref/MinseokKim_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
