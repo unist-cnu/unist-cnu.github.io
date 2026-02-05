@@ -286,8 +286,8 @@ export default function App() {
                       <td>김정훈 교수님</td>
                       <td>TBD</td>
                       <td className="materialsCell">
-                        -
-                      </td>
+                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                    </td>
                     </tr>
                 </tbody>
               </table>
