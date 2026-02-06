@@ -193,7 +193,7 @@ export default function App() {
                     <td>박종민</td>
                     <td>하이퍼볼릭 공간 기반 이종 그래프 표현 학습</td>
                     <td className="materialsCell">
-                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <a className="matLink" href="/materials/slides/JongminPark_slides.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
                     <span className="matGroup">
                       <a className="matLink" href="/materials/ref/JongminPark_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
