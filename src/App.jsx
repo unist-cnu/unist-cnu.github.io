@@ -144,7 +144,7 @@ export default function App() {
                     <td>박소영</td>
                     <td>그래프 신경망에서의 불확실성 정량화 연구</td>
                     <td className="materialsCell">
-                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <a className="matLink" href="/materials/slides/SoyoungPark_slides.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
                       <a className="matLink" href="/materials/ref/SoyoungPark_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
                     </td>
@@ -155,7 +155,7 @@ export default function App() {
                     <td>한승훈</td>
                     <td>Multi-modal LLM에서 그래프를 활용한 효과적인 토큰 프루닝</td>
                     <td className="materialsCell">
-                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <a className="matLink" href="/materials/slides/SeunghoonHan_slides.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
                       <a className="matLink" href="/materials/ref/SeunghoonHan_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
                     </td>
@@ -166,7 +166,7 @@ export default function App() {
                     <td>오정현</td>
                     <td>계층적 데이터 처리를 위한 GraphRAG 연구</td>
                     <td className="materialsCell">
-                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <a className="matLink" href="/materials/slides/JunghyunOh_slides.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
                       <a className="matLink" href="/materials/ref/JunghyunOh_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
                     </td>
@@ -182,7 +182,7 @@ export default function App() {
                     <td>송민경</td>
                     <td>그래프 기반 추천 시스템의 분리 학습 연구</td>
                     <td className="materialsCell">
-                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <a className="matLink" href="/materials/slides/MinkyungSong_slides.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
                       <a className="matLink" href="/materials/ref/MinkyungSong_ref.pdf" target="_blank" rel="noreferrer">Ref</a>
                     </td>
