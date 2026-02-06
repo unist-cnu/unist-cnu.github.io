@@ -228,7 +228,7 @@ export default function App() {
                     <td>김다희</td>
                     <td>규모 제약을 고려한 사용자 중심 커뮤니티 검색</td>
                     <td className="materialsCell">
-                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <a className="matLink" href="/materials/slides/DaheeKim_slides.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
                       <span className="matGroup">
                         <a className="matLink" href="/materials/ref/DaheeKim_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
@@ -243,7 +243,7 @@ export default function App() {
                     <td>한태준</td>
                     <td>유저 참여도 강화를 위한 앵커링 연구</td>
                     <td className="materialsCell">
-                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <a className="matLink" href="/materials/slides/TaejoonHan_slides.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
                       <span className="matGroup">
                         <a className="matLink" href="/materials/ref/TaejoonHan_ref1.pdf" target="_blank" rel="noreferrer">Ref1</a>
@@ -258,7 +258,7 @@ export default function App() {
                     <td>김송</td>
                     <td>Maximum subgraph search of size-adaptive model</td>
                     <td className="materialsCell">
-                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
+                      <a className="matLink" href="/materials/slides/SongKim_slides.pdf" target="_blank" rel="noreferrer">Slides</a>
                       <span className="matSep">·</span>
 
                       <span className="matGroup">
