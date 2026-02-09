@@ -284,10 +284,7 @@ export default function App() {
                   <tr className="openingRow">
                       <td>17:00- 18:00</td>
                       <td>김정훈 교수님</td>
-                      <td>TBD</td>
-                      <td className="materialsCell">
-                      <a className="matLink" href="/materials/slides/example.pdf" target="_blank" rel="noreferrer">Slides</a>
-                    </td>
+                      <td colSpan={2}>TBD</td>
                     </tr>
                 </tbody>
               </table>
