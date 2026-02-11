@@ -284,7 +284,7 @@ export default function App() {
                   <tr className="openingRow">
                       <td>17:00- 18:00</td>
                       <td>김정훈 교수님</td>
-                      <td colSpan={2}>대학원 생존을 위한 히치하이커 안내서</td>
+                      <td>대학원 생존을 위한 히치하이커 안내서</td>
                     </tr>
                 </tbody>
               </table>
