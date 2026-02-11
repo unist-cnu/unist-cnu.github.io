@@ -315,7 +315,8 @@
 
 /* Opening row */
 .openingRow td {
-  background: #edf2f7;
+  /* background: #edf2f7; */
+  background: #ffffff;
   color: #000000;
   font-weight: 500;
 }
