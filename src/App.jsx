@@ -302,11 +302,11 @@ export default function App() {
                   Dinner @{" "}
                   <a
                     className="link"
-                    href="https://map.naver.com/p/entry/place/2007524811?lng=129.2397078&lat=35.5756337&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202601131525&locale=ko&svcName=map_pcv5&searchType=place&c=15.00,0,0,0,dh"
+                    // href="https://map.naver.com/p/entry/place/2007524811?lng=129.2397078&lat=35.5756337&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202601131525&locale=ko&svcName=map_pcv5&searchType=place&c=15.00,0,0,0,dh"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    돌담집
+                    언양불고기
                   </a>
                 </>
               }
