@@ -390,12 +390,12 @@ export default function App() {
     </figure>
     <figure className="photoItem">
       <img src="/photos/hitchhiker_talk.JPG" alt="Talk photo 3" />
-      <figcaption>김정훈 교수님 Talk</figcaption>
+      <figcaption>김정훈 교수님</figcaption>
     </figure>
 
     <figure className="photoItem wide">
       <img src="/photos/group.jpg" alt="Group photo" />
-      <figcaption>Group Photo</figcaption>
+      <figcaption>UNIST x CNU</figcaption>
     </figure>
   </div>
 </section>
