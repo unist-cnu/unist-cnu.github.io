@@ -398,3 +398,45 @@
   opacity: 0.65;
   text-align: center;
 }
+
+
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.photoItem {
+  margin: 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.photoItem img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.photoItem figcaption {
+  padding: 10px 12px;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.photoItem.wide {
+  grid-column: 1 / -1; /* ✅ 전체사진은 한 줄 꽉 */
+}
+
+@media (max-width: 780px) {
+  .photoGrid {
+    grid-template-columns: 1fr;
+  }
+  .photoItem img {
+    height: 220px;
+  }
+}

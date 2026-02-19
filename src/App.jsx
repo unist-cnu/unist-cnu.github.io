@@ -31,9 +31,6 @@ export default function App() {
               <Tag>UNIST (예봉 Y201호, Y202호)</Tag>
             </div>
           </div>
-          <p className="sub">
-            일정/장소/세션은 확정되는 대로 업데이트 예정입니다.
-          </p>
         </header>
 
         <section className="grid">
@@ -339,19 +336,43 @@ export default function App() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    언양 닭칼국수
+                    정나루
                   </a>
                 </>
               }
               desc="점심"
             />
-            <TimelineItem
-              title="TBD"
-            />
           </div>
         </div>
       </section>
+      {/* PHOTOS */}
+<section className="card">
+  <div className="sectionHead">
+    <h2>Photos</h2>
+  </div>
 
+  <div className="photoGrid">
+    <figure className="photoItem">
+      <img src="/photos/talk-1.JPG" alt="Talk photo 1" />
+      <figcaption>Talk 1</figcaption>
+    </figure>
+
+    <figure className="photoItem">
+      <img src="/photos/talk-2.JPG" alt="Talk photo 2" />
+      <figcaption>Talk 2</figcaption>
+    </figure>
+
+    {/* <figure className="photoItem">
+      <img src="/photos/talk-3.JPG" alt="Talk photo 3" />
+      <figcaption>Talk 3</figcaption>
+    </figure> */}
+
+    <figure className="photoItem wide">
+      <img src="/photos/group.jpg" alt="Group photo" />
+      <figcaption>Group Photo</figcaption>
+    </figure>
+  </div>
+</section>
         <footer className="footer">
           <small>© UNIST × CNU Workshop</small>
         </footer>
