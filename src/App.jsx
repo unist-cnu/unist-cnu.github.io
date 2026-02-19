@@ -354,43 +354,43 @@ export default function App() {
   <div className="photoGrid">
     <figure className="photoItem">
       <img src="/photos/sy.jpg" alt="Talk photo 1" />
-      <figcaption>박소영</figcaption>
+      <figcaption>그래프 신경망에서의 불확실성 정량화 연구 / 박소영</figcaption>
     </figure>
     <figure className="photoItem">
       <img src="/photos/sh.JPG" alt="Talk photo 1" />
-      <figcaption>한승훈</figcaption>
+      <figcaption>Multi-modal LLM에서 그래프를 활용한 효과적인 토큰 프루닝 / 한승훈</figcaption>
     </figure>
     <figure className="photoItem">
       <img src="/photos/jh.JPG" alt="Talk photo 1" />
-      <figcaption>오정현</figcaption>
+      <figcaption>계층적 데이터 처리를 위한 GraphRAG 연구 / 오정현</figcaption>
     </figure>
     <figure className="photoItem">
       <img src="/photos/mk.JPG" alt="Talk photo 1" />
-      <figcaption>송민경</figcaption>
+      <figcaption>그래프 기반 추천 시스템의 분리 학습 연구 / 송민경</figcaption>
     </figure>
     <figure className="photoItem">
       <img src="/photos/jm.JPG" alt="Talk photo 1" />
-      <figcaption>박종민</figcaption>
+      <figcaption>하이퍼볼릭 공간 기반 이종 그래프 표현 학습 / 박종민</figcaption>
     </figure>
     <figure className="photoItem">
       <img src="/photos/ms.JPG" alt="Talk photo 1" />
-      <figcaption>김민석</figcaption>
+      <figcaption>참여 강도 기반 응집 부분 하이퍼그래프 탐색 / 김민석</figcaption>
     </figure>
     <figure className="photoItem">
       <img src="/photos/dh.JPG" alt="Talk photo 1" />
-      <figcaption>김다희</figcaption>
-    </figure>
-    <figure className="photoItem">
-      <img src="/photos/song.JPG" alt="Talk photo 2" />
-      <figcaption>김송</figcaption>
+      <figcaption>규모 제약을 고려한 사용자 중심 커뮤니티 검색 / 김다희</figcaption>
     </figure>
     <figure className="photoItem">
       <img src="/photos/tj.JPG" alt="Talk photo 2" />
-      <figcaption>한태준</figcaption>
+      <figcaption>유저 참여도 강화를 위한 앵커링 연구 / 한태준</figcaption>
+    </figure>
+    <figure className="photoItem">
+      <img src="/photos/song.JPG" alt="Talk photo 2" />
+      <figcaption>우리 모두 친구가 될 수 있을까요? / 김송</figcaption>
     </figure>
     <figure className="photoItem">
       <img src="/photos/hitchhiker_talk.JPG" alt="Talk photo 3" />
-      <figcaption>김정훈 교수님</figcaption>
+      <figcaption>대학원 생존을 위한 히치하이커 안내서 / 김정훈 교수님</figcaption>
     </figure>
 
     <figure className="photoItem wide">
