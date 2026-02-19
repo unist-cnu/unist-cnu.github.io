@@ -353,19 +353,45 @@ export default function App() {
 
   <div className="photoGrid">
     <figure className="photoItem">
-      <img src="/photos/talk-1.JPG" alt="Talk photo 1" />
-      <figcaption>Talk 1</figcaption>
+      <img src="/photos/sy.jpg" alt="Talk photo 1" />
+      <figcaption>박소영</figcaption>
     </figure>
-
     <figure className="photoItem">
-      <img src="/photos/talk-2.JPG" alt="Talk photo 2" />
-      <figcaption>Talk 2</figcaption>
+      <img src="/photos/sh.JPG" alt="Talk photo 1" />
+      <figcaption>한승훈</figcaption>
     </figure>
-
-    {/* <figure className="photoItem">
-      <img src="/photos/talk-3.JPG" alt="Talk photo 3" />
-      <figcaption>Talk 3</figcaption>
-    </figure> */}
+    <figure className="photoItem">
+      <img src="/photos/jh.JPG" alt="Talk photo 1" />
+      <figcaption>오정현</figcaption>
+    </figure>
+    <figure className="photoItem">
+      <img src="/photos/mk.JPG" alt="Talk photo 1" />
+      <figcaption>송민경</figcaption>
+    </figure>
+    <figure className="photoItem">
+      <img src="/photos/jm.JPG" alt="Talk photo 1" />
+      <figcaption>박종민</figcaption>
+    </figure>
+    <figure className="photoItem">
+      <img src="/photos/ms.JPG" alt="Talk photo 1" />
+      <figcaption>김민석</figcaption>
+    </figure>
+    <figure className="photoItem">
+      <img src="/photos/dh.JPG" alt="Talk photo 1" />
+      <figcaption>김다희</figcaption>
+    </figure>
+    <figure className="photoItem">
+      <img src="/photos/song.JPG" alt="Talk photo 2" />
+      <figcaption>김송</figcaption>
+    </figure>
+    <figure className="photoItem">
+      <img src="/photos/tj.JPG" alt="Talk photo 2" />
+      <figcaption>한태준</figcaption>
+    </figure>
+    <figure className="photoItem">
+      <img src="/photos/hitchhiker_talk.JPG" alt="Talk photo 3" />
+      <figcaption>김정훈 교수님 Talk</figcaption>
+    </figure>
 
     <figure className="photoItem wide">
       <img src="/photos/group.jpg" alt="Group photo" />
